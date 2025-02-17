@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.first, .seven {
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.first {
+    padding-top: 80px;
+    background-image: url('https://w0.peakpx.com/wallpaper/388/944/HD-wallpaper-computer-keyboard-abstract.jpg');
+}
+.seven {
+    background-image: url('https://images.wallpaperscraft.com/image/single/laptop_keyboard_backlight_215877_2560x1600.jpg');
+}
+.first h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+.first p {
+    font-size: 1.5rem;
+    max-width: 90%;
+}
+.first button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+}
+.first button:hover{
+    transform: scale(1.1);
+    background: linear-gradient(to right,rgb(255, 255, 255),rgb(121, 223, 194));
+}
+.first button a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+
+
+.second, .third, .fourth, .fifth, .sixth, .about{
+    height: auto;
+    width: 100%;
+    background: rgba(26, 20, 27, 0.9);
+    padding: 50px 20px;
+    text-align: center;
+}
+.second h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    color: red;
+}
+.second p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 20px auto;
+}
+.second h2 {
+    font-size: 2rem;
+    color: orchid;
+    margin-top: 40px;
+}
+.second i {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #e71313;
+    transition: all ease-in-out 0.3s;
+}
+.second i:hover{
+    transform: scale(1.4);
+    cursor: pointer;
+    color: cornsilk;
+}
+
+.about p{
+    margin-top: 20px;
+}
+
+.third {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.third img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+.third img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+.third p {
+    max-width: 600px;
+    font-size: 1.3rem;
+}
+
+
+.fourth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fourth img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+.fourth img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+.fourth p{
+    max-width: 600px;
+    font-size: 1.3rem;
+}
+
+.fifth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.fifth p{
+    max-width: 600px;
+    font-size: 1.3rem;
+}
+.fifth img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}
+.fifth img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+
+
+.sixth{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.sixth img{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    transition: all ease-in-out 0.3s;
+}   
+.sixth img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px white;
+}
+.sixth p{
+    max-width: 600px;
+    font-size: 1.3rem;
+}
+
+.seven{
+    color: rgb(32, 228, 147);
+}
+.seven h1{
+    font-size: 6rem;
+}
+.seven p{
+    font-size: 2rem;
+}
+@media (max-width: 768px) {
+    .first h1 {
+                font-size: 2.5rem;
+    }
+    .first p {
+                font-size: 1.2rem;
+    }
+    .first button{
+        font-size: 10px;
+    }
+    .second h1 {
+                font-size: 3rem;
+    }
+    .second p {
+                font-size: 1.2rem;
+    }
+    .third {
+                flex-direction: column;
+                text-align: center;
+    }
+    .fourth{
+                flex-direction: column;
+                text-align: center;
+    }
+    .fifth{
+                flex-direction: column;
+                text-align: center;
+    }
+    .sixth{
+                flex-direction: column;
+                text-align: center;
+    }
+    .seven h1{
+                font-size: 4rem;
+    }
+    .seven p{
+                font-size: 1.2rem;
+    }
+    .navbar{
+        font-size: 1.1rem;
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sklls > div{
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 480px) {
+    .first h1 {
+                font-size: 2rem;
+    }
+    .first p {
+                font-size: 1rem;
+    }
+    .second h1 {
+                font-size: 2.5rem;
+    }
+    .second p {
+                font-size: 1rem;
+    }
+    .third h1 {
+                font-size: 2.5rem;
+    }
+    .third p {
+                font-size: 1rem;
+    }
+    .fourth p{
+                font-size: 1rem;
+    }
+    .fifth p{
+                font-size: 1rem;
+    }
+    .sixth p{
+                font-size: 1rem;
+    }
+    .seven h1{
+                font-size: 2.5rem;
+    }
+    .seven p{
+                font-size: 1rem;
+    }
+    .navbar{
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+    .skills{
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills > div{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+}
+
+.seven {
+    position: relative;
+    padding-bottom: 100px; 
+}
+
+.seven .social {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.seven .social a {
+    text-decoration: none;
+    color: chartreuse;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all ease-in-out 0.3s;
+}
+.seven .social a:hover{
+    transform: scale(1.4);
+    color: rgb(120, 200, 230);
+}
+
+/*
+.menu {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    top: 20px;
+    right: 70px;
+}
+
+.menu a{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.menu a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(17, 211, 225);
+    text-decoration: none;
+}
+.logo:hover{
+    color: white;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-links ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+.nav-links ul li{
+    list-style: none;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all ease-in-out 0.3s;
+}
+.nav-links a:hover{
+    color: red;
+    transform: scale(1.1);
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+    .nav-links {
+        font-size: 10px;
+    }
+    .nav-links ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .navbar{
+        font-size: 10px;
+    }
+}
+.skill-heading{
+    text-align: center;
+    color: rgb(121, 222, 5);
+    font-size: 3rem;
+    font-weight: bold;
+    background: rgba(26, 20, 27, 0.9);
+    padding: 20px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    background: rgba(26, 20, 27, 0.9);
+}
+
+.skills > div {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    perspective: 1000px;
+}
+
+.skills > div > b {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.skills > div > ol {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    font-weight: bold;
+    list-style-type: none;
+}
+
+.skills > div:hover > b {
+    transform: rotateY(180deg);
+}
+
+.skills > div:hover > ol {
+    transform: rotateY(0deg);
+}
